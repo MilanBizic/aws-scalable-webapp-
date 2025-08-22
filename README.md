@@ -15,3 +15,5 @@ Public instances handle external requests, while private instances run the backe
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/igw.png?raw=true)
 Internet Gateway (IGW) attached to the VPC.
 This allows communication between the VPC and the internet for public subnets.
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/routetables.png?raw=true) 
+Here is a  view of a well-organized VPC with separate route tables for public and private subnets, indicating a setup designed for proper traffic management and network segmentation.
