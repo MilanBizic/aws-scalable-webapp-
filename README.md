@@ -9,7 +9,9 @@ The project's domain registration is managed through Route 53
 The project's new domain is now live!
 ![Alt text for the image]( https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/Vpc2.png?raw=true)
 We've successfully set up our project's Virtual Private Cloud (VPC), laying down a solid foundation for our infrastructure.
-
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/subnets.png?raw=true) 
+We did make 4 subnets. This architecture uses public and private subnets for high availability.
+Public instances handle external requests, while private instances run the backend application securely
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/igw.png?raw=true)
 Internet Gateway (IGW) attached to the VPC.
 This allows communication between the VPC and the internet for public subnets.
