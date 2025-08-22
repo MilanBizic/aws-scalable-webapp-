@@ -6,3 +6,4 @@ This repository details the architecture of a scalable, highly available web app
 
 The project's domain registration is managed through Route 53
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/mb.png?raw=true)                                      
+The project's new domain is now live!
