@@ -19,6 +19,7 @@ This allows communication between the VPC and the internet for public subnets.
 Here is a  view of a well-organized VPC with separate route tables for public and private subnets, indicating a setup designed for proper traffic management and network segmentation.
 ![Alt text for the image]( https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/nat.png?raw=true) 
 NAT gateway has been selected to be deployed in one Availability Zone to enable private subnets to connect to the internet.
+
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/Inboundrules.png?raw=true)
 Security groups are virtual firewalls,we create one for our load balancer and another for our EC2 instances.
 On this photo, I've created the Load Balancer Security Group, configuring it to accept all inbound web traffic on ports 80 and 443 from anywhere on the internet.
