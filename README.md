@@ -25,5 +25,8 @@ Security groups are virtual firewalls,we create one for our load balancer and an
 On this photo, I've created the Load Balancer Security Group, configuring it to accept all inbound web traffic on ports 80 and 443 from anywhere on the internet.
 ![Alt text for the image]( https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/EC2.png?raw=true) 
 Following the launch of two EC2 instances, the actual code for this project begins here.
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ALB1.png?raw=true)
+
+For our project, we've successfully deployed an Application Load Balancer (ALB) within our public subnets, secured with its dedicated Security Group, and configured it to forward all web traffic to a target group containing our web server EC2 instances.
 
 
