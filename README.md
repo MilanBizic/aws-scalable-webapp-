@@ -24,5 +24,4 @@ NAT gateway has been selected to be deployed in one Availability Zone to enable 
 Security groups are virtual firewalls,we create one for our load balancer and another for our EC2 instances.
 On this photo, I've created the Load Balancer Security Group, configuring it to accept all inbound web traffic on ports 80 and 443 from anywhere on the internet.
 
-NAT gateway has been selected to be deployed in one Availability Zone to enable private subnets to connect to the internet.
 
