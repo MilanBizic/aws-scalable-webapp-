@@ -30,5 +30,7 @@ Following the launch of two EC2 instances, the actual code for this project begi
 For our project, we've successfully deployed an Application Load Balancer (ALB) within our public subnets, secured with its dedicated Security Group, and configured it to forward all web traffic to a target group containing our web server EC2 instances.
  ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/greetings2.png?raw=true)   
 The webpage is now fully operational, displaying a successful response to the user! And greetings aswell!
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/iamrole.png?raw=true)
+For our project, we have already implemented **IAM roles** for our EC2 instances. This was a crucial step that allows us to grant our web servers temporary and precisely defined permissions to access other AWS services—such as a database or S3—without ever using static usernames or passwords. This approach ensures our application is secure and follows a foundational best practice.
 
 
