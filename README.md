@@ -38,4 +38,5 @@ We  requested a certificate for our domain name.
 Once we had our certificate, we updated our Application Load Balancer (ALB) by adding a new listener. We then attached the certificate to the ALB, which enabled us to securely handle all HTTPS traffic and offload that work from our EC2 instances.
  ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM5.png?raw=true)
  Our conncection is secure!
-
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/backup2.png?raw=true)
+And on the end we have backups, our diaster recovery plan. This ensures we can recover from accidental data loss, a security incident, or even a full region failure. 
