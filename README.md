@@ -32,5 +32,7 @@ For our project, we've successfully deployed an Application Load Balancer (ALB) 
 The webpage is now fully operational, displaying a successful response to the user! And greetings aswell!
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/iamrole.png?raw=true)
 For our project, we have already implemented **IAM roles** for our EC2 instances. This was a crucial step that allows us to grant our web servers temporary and precisely defined permissions to access other AWS services—such as a database or S3—without ever using static usernames or passwords. This approach ensures our application is secure and follows a foundational best practice.
+![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM1.png?raw=true)    
+We  requested a certificate for our domain name.                                   
 
 
