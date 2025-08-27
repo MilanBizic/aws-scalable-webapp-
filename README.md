@@ -34,5 +34,6 @@ The webpage is now fully operational, displaying a successful response to the us
 For our project, we have already implemented **IAM roles** for our EC2 instances. This was a crucial step that allows us to grant our web servers temporary and precisely defined permissions to access other AWS services—such as a database or S3—without ever using static usernames or passwords. This approach ensures our application is secure and follows a foundational best practice.
 ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM1.png?raw=true)    
 We  requested a certificate for our domain name.                                   
-
+![Alt text for the image]( https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM4.png?raw=true)
+Once we had our certificate, we updated our Application Load Balancer (ALB) by adding a new listener. We then attached the certificate to the ALB, which enabled us to securely handle all HTTPS traffic and offload that work from our EC2 instances.
 
