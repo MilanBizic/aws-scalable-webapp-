@@ -37,5 +37,5 @@ We  requested a certificate for our domain name.
 ![Alt text for the image]( https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM4.png?raw=true)
 Once we had our certificate, we updated our Application Load Balancer (ALB) by adding a new listener. We then attached the certificate to the ALB, which enabled us to securely handle all HTTPS traffic and offload that work from our EC2 instances.
  ![Alt text for the image](https://github.com/MilanBizic/aws-scalable-webapp-/blob/main/ACM5.png?raw=true)
- Once we had our certificate, we updated our **Application Load Balancer (ALB)** by adding a new listener. We then attached the certificate to the ALB, which enabled us to securely handle all HTTPS traffic and offload that work from our EC2 instances.
+ Our conncection is secure!
 
